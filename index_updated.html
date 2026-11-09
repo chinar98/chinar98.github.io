@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Chinar Sakrikar — Senior Data Engineer and Team Lead specializing in Databricks, Snowflake, PySpark, cloud data platforms, and engineering delivery.">
+<title>Chinar Sakrikar — Senior Data Engineer &amp; Team Lead</title>
+<style>
+:root{--bg:#f4f2ee;--fg:#141414;--mute:#6a6862;--card:#fff;--line:#e3e0d9;--chip:#ebe8e1;--g1:#d9ead3;--g2:#fde3c8;--g3:#d6e4fb;--g4:#f4d6e6;--g5:#e3dcfa;--g6:#d3efee;box-sizing:border-box}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f0f0f;--fg:#f1efe9;--mute:#9b9890;--card:#181817;--line:#2a2a28;--chip:#242422;--g1:#22331f;--g2:#3a2a18;--g3:#1b2a42;--g4:#3b1f2e;--g5:#2a2442;--g6:#183736;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f0f0f;--fg:#f1efe9;--mute:#9b9890;--card:#181817;--line:#2a2a28;--chip:#242422;--g1:#22331f;--g2:#3a2a18;--g3:#1b2a42;--g4:#3b1f2e;--g5:#2a2442;--g6:#183736;color-scheme:dark}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+a{color:inherit}.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:0;z-index:9;padding:14px 0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px)}
+nav{display:flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 10px 8px 16px}
+.brand{font-weight:700;text-decoration:none;margin-right:auto;letter-spacing:.02em}
+nav a.l{text-decoration:none;font-size:14px;padding:8px 13px;border-radius:999px}nav a.l:hover{background:var(--chip)}
+nav a.cta{background:var(--fg);color:var(--bg);text-decoration:none;font-size:14px;padding:8px 18px;border-radius:999px}
+.hero{padding:72px 0 54px}.badge{display:inline-flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:13px;color:var(--mute)}
+.badge i{width:8px;height:8px;border-radius:50%;background:#3ec27a;display:inline-block}
+h1{font-size:clamp(40px,7.5vw,82px);line-height:1.03;letter-spacing:-.045em;margin:22px 0 20px;font-weight:600;max-width:950px}
+h1 em{font-style:normal;color:var(--mute)}.lead{font-size:clamp(18px,2.2vw,22px);color:var(--mute);max-width:700px;margin:0}
+h2{font-size:clamp(29px,4.5vw,44px);letter-spacing:-.03em;font-weight:600;margin:0 0 28px}
+h3{font-size:21px;letter-spacing:-.02em;margin:18px 0 8px}
+.small{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin:42px 0 14px}
+.chips,.tags{display:flex;flex-wrap:wrap;gap:9px}.chip{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:8px 17px;font-size:14px}
+section{padding:58px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,310px),1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:24px}
+.card p{color:var(--mute);font-size:15px;margin:0 0 14px}.thumb{border-radius:18px;min-height:125px;display:flex;align-items:flex-end;padding:18px;font-size:42px;font-weight:650;letter-spacing:-.04em;line-height:1}
+.tags span{background:var(--chip);border-radius:999px;padding:4px 11px;font-size:12px}
+.metric{font-size:clamp(34px,5vw,52px);font-weight:650;letter-spacing:-.05em;line-height:1}
+.metric-label{font-size:13px;color:var(--mute);margin-top:7px}
+.about{background:var(--card);border:1px solid var(--line);border-radius:30px;padding:clamp(28px,5vw,54px)}
+.about p{font-size:clamp(17px,2.1vw,21px);line-height:1.55;letter-spacing:-.01em;margin:0 0 18px;max-width:850px}
+.about .who{color:var(--mute);font-size:14px;margin:0}
+.big{background:var(--fg);color:var(--bg);border-radius:34px;padding:clamp(30px,6vw,68px)}
+.big h2{font-size:clamp(36px,7vw,72px);line-height:1.02;margin-bottom:30px}
+.rows{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:22px}
+.rows b{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.6;font-weight:500;margin-bottom:6px}
+.rows a{text-decoration:none;border-bottom:1px solid currentColor}
+.text-link{display:inline-block;margin-top:5px;font-size:14px;text-decoration:underline;text-underline-offset:4px}
+footer{padding:28px 0 44px;font-size:13px;color:var(--mute);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+@media(max-width:600px){.wrap{padding:0 17px}nav{gap:2px;padding-left:12px}nav a.l{padding:8px 7px;font-size:12px}nav a.cta{padding:8px 12px;font-size:12px}.hero{padding-top:54px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#top">Chinar Sakrikar</a>
+<a class="l" href="#work">Work</a><a class="l" href="#writing">Writing</a><a class="l" href="#about">About</a>
+<a class="cta" href="#contact">Contact</a>
+</nav></div></header>
+<main class="wrap" id="top">
+<div class="hero">
+<span class="badge"><i></i>Open to Senior &amp; Lead Data Engineer roles</span>
+<h1>I build the pipelines your reports depend on, <em>and lead the teams behind them.</em></h1>
+<p class="lead">Senior Data Engineer and Team Lead at Emergys, building and delivering data platforms with Azure Databricks, Snowflake, PySpark, AWS, and Python.</p>
+<div class="small">Core technologies</div>
+<div class="chips"><span class="chip">Azure Databricks</span><span class="chip">Snowflake</span><span class="chip">PySpark</span><span class="chip">Delta Lake</span><span class="chip">Unity Catalog</span><span class="chip">AWS</span><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">Streamlit</span></div>
+</div>
+
+<section id="work">
+<h2>Selected work.</h2>
+<div class="grid">
+<article class="card"><div class="thumb" style="background:var(--g1)">Lakehouse</div>
+<h3>Databricks Lakehouse &amp; Delta Lake</h3><p>Built and worked on a Databricks lakehouse using Delta Lake and Unity Catalog, with a focus on reliable pipelines, data readiness, performance, and production operations.</p>
+<div class="tags"><span>Azure Databricks</span><span>Delta Lake</span><span>Unity Catalog</span><span>PySpark</span></div></article>
+<article class="card"><div class="thumb" style="background:var(--g2)">30%</div>
+<h3>Pipeline Performance Optimization</h3><p>Improved pipeline speed by 30% through performance tuning and optimization across data engineering workloads.</p>
+<div class="tags"><span>Databricks</span><span>Spark</span><span>Optimization</span></div></article>
+<article class="card"><div class="thumb" style="background:var(--g3)">Snowflake</div>
+<h3>SQL Server to Snowflake Migration</h3><p>Delivered migration pipelines from SQL Server to Snowflake and automated ingestion with Snowpipe to support scalable analytics and reporting.</p>
+<div class="tags"><span>Snowflake</span><span>Snowpipe</span><span>SQL</span><span>Migration</span></div></article>
+<article class="card"><div class="thumb" style="background:var(--g4)">4 sources</div>
+<h3>Multi-source Data Warehouse</h3><p>Integrated Salesforce, Xero, SharePoint, and MongoDB data into a SQL Server warehouse that powers executive Tableau reporting.</p>
+<div class="tags"><span>AWS</span><span>SQL Server</span><span>ETL</span><span>Tableau</span></div></article>
+<article class="card"><div class="thumb" style="background:var(--g5)">Self-serve</div>
+<h3>Snowflake Self-service Data App</h3><p>Developed a Streamlit application on Snowflake to automate data workflows and make operational insights more accessible to business users.</p>
+<div class="tags"><span>Streamlit</span><span>Snowflake</span><span>Python</span></div></article>
+<article class="card"><div class="thumb" style="background:var(--g6)">Team lead</div>
+<h3>Engineering Delivery &amp; Leadership</h3><p>Since January 2025, leading a team across engineering, QA, and analytics. Drive sprint planning, backlog refinement, release readiness, and mentoring in PySpark and Delta Lake.</p>
+<div class="tags"><span>Team leadership</span><span>Agile</span><span>Delivery</span><span>Mentoring</span></div></article>
+</div>
+<div class="grid" style="margin-top:18px">
+<div class="card"><div class="metric">30%</div><div class="metric-label">Pipeline speed improvement</div></div>
+<div class="card"><div class="metric">4</div><div class="metric-label">Source systems integrated into a reporting warehouse</div></div>
+<div class="card"><div class="metric">Jan 2025</div><div class="metric-label">Started leading engineering, QA, and analytics teams</div></div>
+</div>
+</section>
+
+<section id="writing">
+<h2>Writing &amp; insights.</h2>
+<div class="grid">
+<article class="card">
+<div class="small" style="margin-top:0">LinkedIn article</div>
+<h3>How Databricks Lakebridge accelerated our legacy migration</h3>
+<p>An article on using Databricks Lakebridge to accelerate legacy migration. Visit the original LinkedIn publication to read the full piece.</p>
+<a class="text-link" href="https://www.linkedin.com/pulse/how-databricks-lakebridge-accelerated-our-legacy-chinar-sakrikar-lzc3f/" target="_blank" rel="noopener noreferrer">Read article on LinkedIn ↗</a>
+</article>
+<article class="card">
+<div class="small" style="margin-top:0">Technical interests</div>
+<h3>Building better data platforms</h3>
+<p>Topics I work with and continue to explore: lakehouse architecture, Delta Lake, Unity Catalog, Snowflake ingestion, Spark performance, and practical AI-enabled data engineering.</p>
+<div class="tags"><span>Lakehouse</span><span>Data migration</span><span>Performance</span><span>AI in data</span></div>
+</article>
+</div>
+</section>
+
+<section id="credentials">
+<h2>Learning &amp; credentials.</h2>
+<div class="grid">
+<article class="card"><h3>Databricks Academy</h3><p>Knowledge badges and accreditations in Databricks Performance Optimization, Data Ingestion with Lakeflow Connect, AWS Databricks Platform Architect, AI Agent Fundamentals, and Databricks Fundamentals.</p></article>
+<article class="card"><h3>Cloud &amp; data foundations</h3><p>AWS Cloud Practitioner, Azure Fundamentals, and Snowflake credentials.</p></article>
+</div>
+</section>
+
+<section id="about">
+<div class="about">
+<div class="small" style="margin-top:0">About</div>
+<p>I’m a Senior Data Engineer and Team Lead at Emergys, based in Pune, India. I build enterprise data pipelines and platforms across Azure Databricks, Snowflake, AWS, and Python, and I enjoy turning complex data challenges into dependable solutions.</p>
+<p>My experience spans Databricks lakehouse development with Delta Lake and Unity Catalog, SQL Server to Snowflake migrations, automated Snowpipe ingestion, multi-source data warehousing, and self-service data applications. I’ve also improved pipeline speed by 30% through performance tuning.</p>
+<p>Since January 2025, I’ve led teams across engineering, QA, and analytics—supporting sprint planning, backlog refinement, release readiness, and mentoring junior engineers on PySpark and Delta Lake.</p>
+<p class="who">M.Sc. Data Science and Big Data Analytics · CGPA 9.56 · AWS Cloud Practitioner · Azure Fundamentals · Snowflake credentials · Databricks Academy accreditations</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="big">
+<h2>Let’s build reliable data platforms together.</h2>
+<div class="rows">
+<div><b>Email</b><a href="mailto:chinar.sak@gmail.com">chinar.sak@gmail.com</a></div>
+<div><b>LinkedIn</b><a href="https://www.linkedin.com/in/chinar-sakrikar-143703178/" target="_blank" rel="noopener noreferrer">Connect</a></div>
+<div><b>GitHub</b><a href="https://github.com/chinar98" target="_blank" rel="noopener noreferrer">chinar98</a></div>
+<div><b>Based in</b>Pune, India</div>
+</div>
+</div>
+</section>
+</main>
+<div class="wrap"><footer><span>© 2026 Chinar Sakrikar</span><span>Senior Data Engineer &amp; Team Lead · Pune, India</span></footer></div>
+</body>
+</html>
